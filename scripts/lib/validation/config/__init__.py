@@ -54,7 +54,7 @@ class LoggingConfig(ConfigModel):
     """Configuration for top level `logging` settings."""
 
     level: Literal["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"] = Field(
-        "DEBUG",
+        "CRITICAL",
         description="Restrict console outputs to all infos, warning or errors only",
     )
     format: str = Field(
