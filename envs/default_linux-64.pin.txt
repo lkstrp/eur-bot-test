@@ -129,7 +129,6 @@ https://conda.anaconda.org/conda-forge/noarch/connection_pool-0.0.3-pyhd3deb0d_0
 https://conda.anaconda.org/conda-forge/noarch/conda-inject-1.3.2-pyhd8ed1ab_0.conda#e52c2a160d6bd0649c9fafdf0c813357
 https://conda.anaconda.org/conda-forge/noarch/appdirs-1.4.4-pyhd8ed1ab_1.conda#f4e90937bbfc3a4a92539545a37bb448
 https://conda.anaconda.org/bioconda/noarch/snakemake-minimal-9.15.0-pyhdfd78af_0.conda#71856e8d31fc4396cb4b3b57c9e7fb83
-https://conda.anaconda.org/bioconda/noarch/snakemake-logger-plugin-pypsa-0.1.0-pyhdfd78af_0.conda#1a318ca1376d0cd58aa85e3857b08520
 https://conda.anaconda.org/bioconda/noarch/snakemake-executor-plugin-slurm-jobstep-0.4.0-pyhdfd78af_0.conda#7d4f2bf739967798eb4d8c02d59cf36c
 https://conda.anaconda.org/bioconda/noarch/snakemake-executor-plugin-slurm-2.1.0-pyhdfd78af_0.conda#01e79189d86f278322d0807f7d1dbada
 https://conda.anaconda.org/bioconda/noarch/snakemake-executor-plugin-cluster-generic-1.0.9-pyhdfd78af_0.tar.bz2#9b1db7127119f513696d620eefe7bf67
@@ -339,16 +338,6 @@ https://conda.anaconda.org/conda-forge/noarch/beautifulsoup4-4.14.3-pyha770c72_0
 https://conda.anaconda.org/conda-forge/noarch/entsoe-py-0.7.9-pyhd8ed1ab_0.conda#6e2b8dfbfd1b4e91f49fd13218db08d7
 https://conda.anaconda.org/conda-forge/noarch/country_converter-1.3.2-pyhd8ed1ab_0.conda#193a9e54636d8d70781a3e56370f5502
 https://conda.anaconda.org/conda-forge/noarch/powerplantmatching-0.8.0-pyhd8ed1ab_0.conda#3c806a133fb9e59dca249c5a00c2ab3e
-https://conda.anaconda.org/conda-forge/noarch/mypy_extensions-1.1.0-pyha770c72_0.conda#e9c622e0d00fa24a6292279af3ab6d06
-https://conda.anaconda.org/conda-forge/noarch/typing_inspect-0.9.0-pyhd8ed1ab_1.conda#fa31df4d4193aabccaf09ce78a187faf
-https://conda.anaconda.org/conda-forge/noarch/typeguard-4.4.4-pyhd8ed1ab_0.conda#8b2613dbfd4e2bc9080b2779b53fc210
-https://conda.anaconda.org/conda-forge/noarch/typing-inspection-0.4.2-pyhd8ed1ab_1.conda#a0a4a3035667fc34f29bfbd5c190baa6
-https://conda.anaconda.org/conda-forge/linux-64/pydantic-core-2.41.5-py313h843e2db_1.conda#f27c39a1906771bbe56cd26a76bf0b8b
-https://conda.anaconda.org/conda-forge/noarch/annotated-types-0.7.0-pyhd8ed1ab_1.conda#2934f256a8acfe48f6ebb4fce6cde29c
-https://conda.anaconda.org/conda-forge/noarch/pydantic-2.12.5-pyhcf101f3_1.conda#c3946ed24acdb28db1b5d63321dbca7d
-https://conda.anaconda.org/conda-forge/noarch/pandera-base-0.28.1-pyhd8ed1ab_0.conda#917e71a753611d7b7bb79baf46273c5a
-https://conda.anaconda.org/conda-forge/noarch/pandera-0.28.1-hd8ed1ab_0.conda#3236ebaa938b455d086f747f3541b57a
-https://conda.anaconda.org/conda-forge/noarch/natsort-8.4.0-pyh29332c3_1.conda#0aa03903d33997f3886be58abc890aef
 https://conda.anaconda.org/conda-forge/noarch/memory_profiler-0.61.0-pyhcf101f3_1.conda#e1bccffd88819e75729412799824e270
 https://conda.anaconda.org/conda-forge/linux-64/tornado-6.5.3-py313h07c4f96_0.conda#82da2dcf1ea3e298f2557b50459809e0
 https://conda.anaconda.org/conda-forge/linux-64/xorg-libx11-1.8.12-h4f16b4b_0.conda#db038ce880f100acc74dba10302b5630
@@ -520,6 +509,10 @@ https://conda.anaconda.org/conda-forge/noarch/donfig-0.8.1.post1-pyhd8ed1ab_1.co
 https://conda.anaconda.org/conda-forge/noarch/zarr-3.1.5-pyhcf101f3_0.conda#c1844a94b2be61bb03bbb71574a0abfc
 https://conda.anaconda.org/conda-forge/noarch/semver-3.0.4-pyhcf101f3_1.conda#8e7be844ccb9706a999a337e056606ab
 https://conda.anaconda.org/conda-forge/noarch/pystac-1.14.3-pyhd8ed1ab_0.conda#77ae41598d63b453bb3c9052f4a14c4b
+https://conda.anaconda.org/conda-forge/noarch/typing-inspection-0.4.2-pyhd8ed1ab_1.conda#a0a4a3035667fc34f29bfbd5c190baa6
+https://conda.anaconda.org/conda-forge/linux-64/pydantic-core-2.41.5-py313h843e2db_1.conda#f27c39a1906771bbe56cd26a76bf0b8b
+https://conda.anaconda.org/conda-forge/noarch/annotated-types-0.7.0-pyhd8ed1ab_1.conda#2934f256a8acfe48f6ebb4fce6cde29c
+https://conda.anaconda.org/conda-forge/noarch/pydantic-2.12.5-pyhcf101f3_1.conda#c3946ed24acdb28db1b5d63321dbca7d
 https://conda.anaconda.org/conda-forge/linux-64/h5py-3.15.1-nompi_py313h253c126_101.conda#5d90c98527ecc832287115d57c121062
 https://conda.anaconda.org/conda-forge/noarch/h5netcdf-1.8.1-pyhd8ed1ab_0.conda#ca7f9ba8762d3e360e47917a10e23760
 https://conda.anaconda.org/conda-forge/noarch/jmespath-1.1.0-pyhcf101f3_1.conda#cc73a9bd315659dc5307a5270f44786f
