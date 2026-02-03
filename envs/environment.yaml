@@ -9,6 +9,7 @@ dependencies:
 - bokeh >=3.8.0
 - cartopy >=0.25.0
 - copernicusmarine >=2.2.4
+- country_converter >=1.3.2
 - dask >=2025.10.0
 - descartes >=1.1.0
 - entsoe-py >=0.7.8
