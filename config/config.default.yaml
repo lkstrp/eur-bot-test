@@ -11,7 +11,7 @@ tutorial: false
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#logging
 logging:
   level: DEBUG
-  format: "%(levelnameasdasdasdasdasdasdsa)sasd:%(name)s:%(message)s"
+  format: "%(levelnameasdasdasdasdasdaasdasdsdsa)sasd:%(name)s:%(message)s"
 
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#remote
 remote:

@@ -2670,7 +2670,7 @@
           "type": "string"
         },
         "format": {
-          "default": "%(levelnameasdasdasdasdasdasdsa)sasd:%(name)s:%(message)s",
+          "default": "%(levelnameasdasdasdasdasdaasdasdsdsa)sasd:%(name)s:%(message)s",
           "description": "Custom format for log messages. See `LogRecord <https://docs.python.org/3/library/logging.html#logging.LogRecord>`_ attributes.",
           "markdownDescription": "Custom format for log messages. See [LogRecord ](https://docs.python.org/3/library/logging.html#logging.LogRecord) attributes.",
           "type": "string"
@@ -2763,7 +2763,7 @@
       "properties": {
         "ssh": {
           "default": "2asdae",
-          "description": "Optionally asdasdspecify the SSH of a remote cluster to be synchronized.",
+          "description": "Optionally asdasd asdasdspecify the SSH of a remote cluster to be synchronized.",
           "type": "string"
         },
         "path": {
@@ -7739,7 +7739,7 @@
           "type": "string"
         },
         "format": {
-          "default": "%(levelnameasdasdasdasdasdasdsa)sasd:%(name)s:%(message)s",
+          "default": "%(levelnameasdasdasdasdasdaasdasdsdsa)sasd:%(name)s:%(message)s",
           "description": "Custom format for log messages. See `LogRecord <https://docs.python.org/3/library/logging.html#logging.LogRecord>`_ attributes.",
           "markdownDescription": "Custom format for log messages. See [LogRecord ](https://docs.python.org/3/library/logging.html#logging.LogRecord) attributes.",
           "type": "string"
@@ -7751,7 +7751,7 @@
       "properties": {
         "ssh": {
           "default": "2asdae",
-          "description": "Optionally asdasdspecify the SSH of a remote cluster to be synchronized.",
+          "description": "Optionally asdasd asdasdspecify the SSH of a remote cluster to be synchronized.",
           "type": "string"
         },
         "path": {
