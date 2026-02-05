@@ -67,7 +67,7 @@ class RemoteConfig(ConfigModel):
     """Configuration for tddop level `remote` settings."""
 
     ssh: str = Field(
-        "asdasd",
+        "2asdae",
         description="Optionally asdasdspecify the SSH of a remote cluster to be synchronized.",
     )
     path: str = Field(
