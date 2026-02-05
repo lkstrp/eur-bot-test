@@ -2762,7 +2762,7 @@
       "description": "Configuration for tddop level `remote` settings.",
       "properties": {
         "ssh": {
-          "default": "asdasd",
+          "default": "2asdae",
           "description": "Optionally asdasdspecify the SSH of a remote cluster to be synchronized.",
           "type": "string"
         },
@@ -7750,7 +7750,7 @@
       "description": "Configuration for tddop level `remote` settings.",
       "properties": {
         "ssh": {
-          "default": "asdasd",
+          "default": "2asdae",
           "description": "Optionally asdasdspecify the SSH of a remote cluster to be synchronized.",
           "type": "string"
         },
