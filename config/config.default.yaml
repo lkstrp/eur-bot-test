@@ -10,12 +10,12 @@ tutorial: false
 
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#logging
 logging:
-  level: CRITICAL
-  format: "%(levelnameasdasd)sasd:%(name)s:%(message)s"
+  level: INFO
+  format: "%(levelnameasdasdasdasdasdasdsa)sasd:%(name)s:%(message)s"
 
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#remote
 remote:
-  ssh: ""
+  ssh: asdasd
   path: ""
 
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#run
