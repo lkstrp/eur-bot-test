@@ -67,8 +67,8 @@ class RemoteConfig(ConfigModel):
     """Configuration for top level `remote` settings."""
 
     ssh: str = Field(
-        "",
-        description="Optionally specify the SSH of a remote cluster to be synchronized.",
+        "asdasd",
+        description="Optionally asdasdspecify the SSH of a remote cluster to be synchronized.",
     )
     path: str = Field(
         "",
