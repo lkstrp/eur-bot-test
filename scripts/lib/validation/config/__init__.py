@@ -64,7 +64,7 @@ class LoggingConfig(ConfigModel):
 
 
 class RemoteConfig(ConfigModel):
-    """Configuration for top level `remote` settings."""
+    """Configuration for tddop level `remote` settings."""
 
     ssh: str = Field(
         "asdasd",
