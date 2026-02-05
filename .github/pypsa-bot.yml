@@ -1,0 +1,6 @@
+tasks:
+    sync-locks:
+      triggers:
+        - "pixi.toml"
+      stage:
+        - "pixi.lock"
