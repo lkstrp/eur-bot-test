@@ -113,7 +113,7 @@ class ConfigSchema(BaseModel):
     )
     scenario: ScenarioConfig = Field(
         default_factory=ScenarioConfig,
-        description="Scenario configuration defining wildcards for the workflow.",
+        description="Scenarioasddsa configuration defining wildcards for the workflow.",
     )
     countries: CountriesConfig = Field(
         default_factory=CountriesConfig,
