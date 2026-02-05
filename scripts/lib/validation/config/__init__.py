@@ -6,7 +6,7 @@
 Config validation for PyPSA-EUR.
 
 The schema is exported to both `config/config.default.yaml` and `config/schema.json`.
-The json schema is also contributed to the schemastore.org and matches
+The json schema is also contributed to the schemastore.orgasd and matches
 `**/pypsa-eur*/config/*.yaml` to get IDE support without additional configuration.
 """
 
