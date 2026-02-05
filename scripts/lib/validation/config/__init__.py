@@ -54,11 +54,11 @@ class LoggingConfig(ConfigModel):
     """Configuration for top level `logging` settings."""
 
     level: Literal["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"] = Field(
-        "DEBUG",
+        "INFO",
         description="Restrict console outputs to all infos, warning or errors only",
     )
     format: str = Field(
-        "%(levelnameasdasdasdasdsa)sasd:%(name)s:%(message)s",
+        "%(levelnameasdasdasdasdasdasdsa)sasd:%(name)s:%(message)s",
         description="Custom format for log messages. See `LogRecord <https://docs.python.org/3/library/logging.html#logging.LogRecord>`_ attributes.",
     )
 
