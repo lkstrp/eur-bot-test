@@ -11,6 +11,13 @@ version = "0.1.0"
 
 [tasks]
 
+sync-locks = """
+    pixi install --all && \
+    pixi workspace export conda-explicit-spec -e default envs && \
+    for f in envs/*_conda_spec*; do mv "$f" "${f/_conda_spec/.pin}"; done && \
+    pixi workspace export conda-environment -e default envs/environment.yaml -n pypsa-eur
+"""
+
 reset = """bash -c '
     read -p "Do you really wanna continue? This will remove all contents of \
 logs, resources, benchmarks, results, and .snakemake directories except \

@@ -23,19 +23,10 @@ jobs:
       with:
         pixi-version: v0.59.0
 
-    - name: Update lockfile
+    - name: Update lockfile and env files
       run: |
         rm pixi.lock
-        pixi install --all
-
-    - name: Create new conda lock files
-      run: |
-        pixi workspace export conda-explicit-spec -e default envs
-        for f in envs/*_conda_spec*; do mv "$f" "${f/_conda_spec/.pin}"; done
-
-    - name: Create new conda environment file
-      run: |
-        pixi workspace export conda-environment -e default envs/environment.yaml -n pypsa-eur
+        pixi run sync-locks
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v6
