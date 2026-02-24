@@ -24,7 +24,7 @@ class SnapshotsConfig(ConfigModel):
     )
     end: str | list[str] = Field(
         "2014-01-01",
-        description="Right bound of date range.",
+        description="Right bound of the date range.",
     )
     inclusive: Literal["left", "right", "both"] | None = Field(
         "left",
