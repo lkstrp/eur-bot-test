@@ -3827,7 +3827,7 @@
         },
         "use_shadow_directory": {
           "default": false,
-          "description": "Set to ``true`` (default) if snakemake shadow directories (``shallow``) should be used. Set to ``false`` if problems occur.",
+          "description": "Set to ``true`` if snakemake shadow directories (``shallow``) should be used. Set to ``false`` if problems occur.",
           "examples": [
             true
           ],
@@ -7840,7 +7840,7 @@
         },
         "use_shadow_directory": {
           "default": false,
-          "description": "Set to ``true`` (default) if snakemake shadow directories (``shallow``) should be used. Set to ``false`` if problems occur.",
+          "description": "Set to ``true`` if snakemake shadow directories (``shallow``) should be used. Set to ``false`` if problems occur.",
           "examples": [
             true
           ],
