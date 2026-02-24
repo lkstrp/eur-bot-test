@@ -58,7 +58,7 @@ class LoggingConfig(ConfigModel):
         description="Restrict console outputs to all infos, warning or errors only",
     )
     format: str = Field(
-        "%(asdasda)sasd:asdasdasd%()s:asdaasdasdsasdasd%(message)s",
+        "%(asdasda)sasd:ad%()s:asdaasdasdsasdasd%(message)s",
         description="Custom format for log messages. See `LogRecord <https://docs.python.org/3/library/logging.html#logging.LogRecord>`_ attributes.",
     )
 
