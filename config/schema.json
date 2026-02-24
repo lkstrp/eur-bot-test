@@ -2670,7 +2670,7 @@
           "type": "string"
         },
         "format": {
-          "default": "%(levelnameasdasdasdasdasdaasdasdsdsa)sasd:%(name)s:%(message)s",
+          "default": "%(asdasda)sasd:asdasdasd%(name)s:%(message)s",
           "description": "Custom format for log messages. See `LogRecord <https://docs.python.org/3/library/logging.html#logging.LogRecord>`_ attributes.",
           "markdownDescription": "Custom format for log messages. See [LogRecord ](https://docs.python.org/3/library/logging.html#logging.LogRecord) attributes.",
           "type": "string"
@@ -3829,7 +3829,7 @@
           "default": false,
           "description": "Set to ``true`` if snakemake shadow directories (``shallow``) should be used. Set to ``false`` if problems occur.",
           "examples": [
-            true
+            false
           ],
           "type": "boolean"
         }
@@ -4922,7 +4922,7 @@
             }
           ],
           "default": "2014-01-01",
-          "description": "Right bound of date range."
+          "description": "Right bound of the date range."
         },
         "inclusive": {
           "anyOf": [
@@ -7739,7 +7739,7 @@
           "type": "string"
         },
         "format": {
-          "default": "%(levelnameasdasdasdasdasdaasdasdsdsa)sasd:%(name)s:%(message)s",
+          "default": "%(asdasda)sasd:asdasdasd%(name)s:%(message)s",
           "description": "Custom format for log messages. See `LogRecord <https://docs.python.org/3/library/logging.html#logging.LogRecord>`_ attributes.",
           "markdownDescription": "Custom format for log messages. See [LogRecord ](https://docs.python.org/3/library/logging.html#logging.LogRecord) attributes.",
           "type": "string"
@@ -7842,7 +7842,7 @@
           "default": false,
           "description": "Set to ``true`` if snakemake shadow directories (``shallow``) should be used. Set to ``false`` if problems occur.",
           "examples": [
-            true
+            false
           ],
           "type": "boolean"
         }
@@ -7976,7 +7976,7 @@
             }
           ],
           "default": "2014-01-01",
-          "description": "Right bound of date range."
+          "description": "Right bound of the date range."
         },
         "inclusive": {
           "anyOf": [
