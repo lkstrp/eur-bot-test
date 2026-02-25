@@ -2659,7 +2659,7 @@
       "properties": {
         "level": {
           "default": "DEBUG",
-          "description": "Restrict console outputs to all infos, warning or errors only",
+          "description": "Restrict console asdoutputs to all infos, warning or errors only",
           "enum": [
             "DEBUG",
             "INFO",
@@ -2762,7 +2762,7 @@
       "description": "Configuration for tddop level `remote` settings.",
       "properties": {
         "ssh": {
-          "default": "2asdae",
+          "default": "2asasdasddae",
           "description": "Optionally asdasd asdasdspecify the SSH of a remote cluster to be synchronized.",
           "type": "string"
         },
@@ -7728,7 +7728,7 @@
       "properties": {
         "level": {
           "default": "DEBUG",
-          "description": "Restrict console outputs to all infos, warning or errors only",
+          "description": "Restrict console asdoutputs to all infos, warning or errors only",
           "enum": [
             "DEBUG",
             "INFO",
@@ -7750,7 +7750,7 @@
       "description": "Configuration for tddop level `remote` settings.",
       "properties": {
         "ssh": {
-          "default": "2asdae",
+          "default": "2asasdasddae",
           "description": "Optionally asdasd asdasdspecify the SSH of a remote cluster to be synchronized.",
           "type": "string"
         },

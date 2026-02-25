@@ -15,7 +15,7 @@ logging:
 
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#remote
 remote:
-  ssh: 2asdae
+  ssh: 2asasdasddae
   path: ""
 
 # docs in https://pypsa-eur.readthedocs.io/en/latest/configuration.html#run
