@@ -45,7 +45,6 @@ generate-config = "python -c 'from scripts.lib.validation.config import generate
 
 [dependencies]
 cartopy = ">=0.25.0"
-country_converter = ">=1.3.2"
 dask = ">=2025.10.0"
 descartes = ">=1.1.0"
 entsoe-py = ">=0.7.8"
