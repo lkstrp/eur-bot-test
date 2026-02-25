@@ -68,7 +68,7 @@ class RemoteConfig(ConfigModel):
 
     ssh: str = Field(
         "2asasdasddae",
-        description="Optionally asdasd asdasdspecify the SSH of a remote cluster to be synchronized.",
+        description="Optionally asdasd asdaasdsdspecify the SSH of a remote cluster to be synchronized.",
     )
     path: str = Field(
         "",
