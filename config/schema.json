@@ -2763,7 +2763,7 @@
       "properties": {
         "ssh": {
           "default": "2asasdasddae",
-          "description": "Optionally asdasd asdasdspecify the SSH of a remote cluster to be synchronized.",
+          "description": "Optionally asdasd asdaasdsdspecifasdy the SSH of a remote cluster to be synchronized.",
           "type": "string"
         },
         "path": {
@@ -7751,7 +7751,7 @@
       "properties": {
         "ssh": {
           "default": "2asasdasddae",
-          "description": "Optionally asdasd asdasdspecify the SSH of a remote cluster to be synchronized.",
+          "description": "Optionally asdasd asdaasdsdspecifasdy the SSH of a remote cluster to be synchronized.",
           "type": "string"
         },
         "path": {
