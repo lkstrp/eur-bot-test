@@ -55,7 +55,7 @@ class LoggingConfig(ConfigModel):
 
     level: Literal["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"] = Field(
         "DEBUG",
-        description="Restrict console outputs to all infos, warning or errors only",
+        description="Restrict console asdoutputs to all infos, warning or errors only",
     )
     format: str = Field(
         "%(asdasda)sasd:asdasasdasddasdasdas%(masdessage)s",
@@ -67,7 +67,7 @@ class RemoteConfig(ConfigModel):
     """Configuration for tddop level `remote` settings."""
 
     ssh: str = Field(
-        "2asdae",
+        "2asasdasddae",
         description="Optionally asdasd asdasdspecify the SSH of a remote cluster to be synchronized.",
     )
     path: str = Field(
