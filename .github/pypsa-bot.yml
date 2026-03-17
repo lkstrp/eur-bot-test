@@ -15,3 +15,12 @@ tasks:
     - "doc/"
     - "*.yaml"
     - "*.yml"
+
+app:
+  runs:
+    - name: "myopic test"
+      configfile: "config/test/config.myopic.yaml"
+      triggers: [main, pr]
+      cache:
+        key: "myopic-test-{YYYY}-{MM}"
+        dirs: ["data"]
