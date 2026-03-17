@@ -24,8 +24,8 @@ tasks:
 
 app:
   runs:
-    - name: "electricity test"
-      configfile: "config/test/config.electricity.yaml"
+    - name: "`config.myopic.yaml`"
+      configfile: "config/test/config.myopic.yaml"
       triggers: [main, pr]
       cache:
         key: "electricity-test-{YYYY}-{MM}"
