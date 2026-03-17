@@ -18,9 +18,10 @@ tasks:
 
 app:
   runs:
-    - name: "myopic test"
-      configfile: "config/test/config.myopic.yaml"
+    - name: "config.validator.yaml"
+      configfile: "config/test/config.validator.yaml"
       triggers: [main, pr]
       cache:
-        key: "myopic-test-{YYYY}-{MM}"
+        key: "validator-{YYYY}-{MM}"
         dirs: ["data"]
+
