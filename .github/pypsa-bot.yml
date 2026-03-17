@@ -1,0 +1,23 @@
+# Example .github/pypsa-bot.yml
+# Place this file at .github/pypsa-bot.yml in your repository.
+# Each task key is a pixi task name — the bot runs `pixi run <key>`.
+
+tasks:
+  sync-locks:
+    # triggers (optional): list of glob patterns matched against changed files.
+    # Task runs only if a changed file matches. Omit to always run.
+    triggers:
+      - "pixi.toml"
+    # stage (required): git pathspecs passed to `git add --` after the task.
+    stage:
+      - "pixi.lock"
+      - "envs/"
+
+  generate-config:
+    triggers:
+      - "scripts/lib/validation/config/**"
+    stage:
+      - "config/"
+      - "doc/"
+      - "*.yaml"
+      - "*.yml"
