@@ -21,3 +21,12 @@ tasks:
       - "doc/"
       - "*.yaml"
       - "*.yml"
+
+app:
+  runs:
+    - name: "electricity test"
+      configfile: "config/test/config.electricity.yaml"
+      triggers: [main, pr]
+      cache:
+        key: "electricity-test-{YYYY}-{MM}"
+        dirs: ["data"]
